@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Almendra+SC&display=swap');
+body {
+    margin:0px;
+    padding:0px;
+    background:url('images/bg2.jpg');
+}
+.loginNav{
+    
+        text-align: right;
+        width:98%;
+        position: sticky;
+        top:0;
+        
+        
+}
+.half img{
+    margin-left: 40%;
+    width:20%;
+    border:2px solid white;
+    border-radius: 90%;
+    padding:2px;
+}
+.text{
+    margin-left: 35%;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    color:white;
+    font-family: 'Almendra SC', serif;
+}
+.form{
+    height:30vh;
+}
+.box-m{
+    
+    justify-content: center;
+    align-items: center;
+    padding:5%;
+}
+.form{
+    max-width: 500px;
+    margin-left: 38%;
+    margin-top: -85px;
+    
+    
+}
+.form-input{
+    
+    width:60%;
+    font-size:20px;
+    border:2px solid grey;
+    border-radius: 6px;
+    margin-top: 0px 0;
+    margin:10px;
+     padding:0px 3px;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.btn-home{
+    padding:10px;
+    background-color: rgb(5, 5, 8);
+    color:white;
+    width:80px;
+    margin-top:20px;
+    cursor:pointer;
+    border:2px solid rgb(247, 247, 250);
+    border-radius: 10%;
+    margin-right: 30px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    text-decoration: none;
+}
+.btn-home:hover{
+    background-color: grey;
+    cursor:pointer;
+       box-shadow:0 0.4rem 1.4 rem 0 rgba(86,185,235,0.5);
+       transform: translateY(-0.1rem);
+       transition:transform 150ms;
+   }
+   .btn-cont:hover{
+    background-color: grey;
+    cursor:pointer;
+       box-shadow:0 0.4rem 1.4 rem 0 rgba(86,185,235,0.5);
+       transform: translateY(-0.1rem);
+       transition:transform 150ms;
+   }
+  
+
+   
+   .btn-cont{
+    color:white;
+    padding:8px 18px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   width:60%;
+    font-size:15px;
+    cursor:pointer;
+    background: none;
+border:2px solid grey;
+
+    position: relative;
+    margin-top: 5px;
+    margin-left:3%;
+   }
